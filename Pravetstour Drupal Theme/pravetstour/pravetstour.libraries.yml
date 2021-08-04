@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      includes/fontawesome/css/all.min.css: {}
+      css/layout.css: {media: screen}
+      css/grid.css: {media: screen}
+      css/style.css: {media: screen}
+global-scripts:
+  js:
+      js/FlowTypeJS/flowtype.js: {}
+      js/jquerymenu.js: {}
+  dependencies:
+    - core/jquery

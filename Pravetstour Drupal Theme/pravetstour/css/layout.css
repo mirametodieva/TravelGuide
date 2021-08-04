@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+/*------ Layouts ------*/
+.maintenance-page{ background-color: #999; }
+
+div.maintenance-page-block{
+    width: 30%;
+    text-align: center;
+}
+.highlighted{
+		background-color: rgba(205,51,0,.1);
+		border-left: 5px solid #cc3300;
+		border-right: 1px solid #cc3300;
+		border-bottom: 1px solid #cc3300;
+		border-top: 1px solid #cc3300;
+		padding: 10px;
+		margin-bottom: 10px;
+		font-size: 90%;
+		color: #820000;
+		font-style: italic;
+}
+.img-logo-maintenance{
+    width: 60%;
+    height: auto;
+		margin-left: auto;
+		margin-right: auto;
+}
+.top{
+		width: 100%;
+}
+
+@media(max-width: 991px){
+    div.maintenance-page-block{
+        width: 80%;
+    }
+    .header{ height: 50px; }
+    .top{ height: calc(100% - 50px); }
+		.img-logo{ height: 50px; width: auto; }
+}
+@media(min-width: 992px){
+    .header{ height: 80px; }
+    .top{ height: calc(100% - 80px); }
+		.img-logo{ height: 80px; width: auto;}
+}
+
+/*------ Login style ------*/
+.login-container{
+		padding: 2.46%;
+		background-color: #fff;
+}
+.login-container .description{
+		display: none;
+}
+.login-container img{
+		width: 50%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+}
+.login-container h1{
+		text-align: center;
+		text-transform: uppercase;
+}
+.login-container label{
+		text-align: left;
+		margin-bottom: 10px;
+}

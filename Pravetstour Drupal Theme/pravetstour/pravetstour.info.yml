@@ -1,0 +1,22 @@
+name: Pravetstour
+type: theme
+description: 'A flex responsive news theme is designed for Pravetstour web site.'
+package: custom
+core_version_requirement: ^8 || ^9
+libraries:
+  - pravetstour/global-styling
+  - pravetstour/global-scripts
+base theme: stable
+
+regions:
+  header_first: 'Header First'
+  header_second: 'Header Second'
+  top: 'Top'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  front_center_content: 'Front Center Content'
+  bottom_first: 'Bottom First'
+  bottom_second: 'Bottom Second'
+  bottom: 'Bottom'
+
+screenshot: screenshot.png
